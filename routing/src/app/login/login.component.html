@@ -1,0 +1,36 @@
+<div class="main-block">
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <div class="col-md-0 mt-2 px-0">
+                <div class="img-block">
+                    <img src="../../assets/value.jpg">
+                </div>
+            </div>
+            <div class="container mt-2 px-2">
+                <div class="row-md-1 mt-5">
+                    <div class="img-block1">
+                        <img src="../../assets/varcas.jpg">
+                    </div>
+                    <form [formGroup]="loginForm" (ngSubmit)="login()">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="row-md-5 mt-3 mb-2">
+                                    <label>Email</label>
+                                </div>
+                                <input formControlName="email" type="email" class="form-control" placeholder="Your Email address">
+                                <div class="row-md-3 mt-3 mb-2">
+                                    <label> password</label>
+                                </div>
+                                <input formControlName="password" type="password" class="form-control" placeholder="Your password">
+                            </div>
+                        </div>
+                        <!-- <h6 class="accept1 mt-4">Create account?<span class="term"><button class="log-in"
+                            (click)="open()">Sign in</button></span></h6> -->
+                            <h6 class="accept1 mt-4"><a routerLink="/signup">Already registered?<span class="log-in">click to Signup</span> </a></h6>
+                <button type="submit" class="btn btn-primary mt-3">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

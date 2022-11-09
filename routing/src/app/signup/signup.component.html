@@ -1,0 +1,104 @@
+<div class="main-block">
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <div class="col-md-0 mt-2 px-0">
+                <div class="img-block">
+                    <img src="../../assets/value.jpg">
+                </div>
+            </div>
+            <div class="container mt-2 px-2">
+                <div class="row-md-1 mt-5">
+                    <div class="img-block1">
+                        <img src="../../assets/varcas.jpg">
+                    </div>
+                    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                        <b class="regi">Register</b>
+                        <h2>signup</h2>
+                        <div class="form-group row-md-1 px-2">
+                            <div class="d-flex">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <div class="col-md-5 mt-3 mb-2">
+                                            <label for="firstName" class="fn">First Name</label>
+                                        </div>
+                                        <input type="text" name="firstName" id="firstName" class="form-control"
+                                            placeholder="Your First Name" formControlName="firstname">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <div class="col-md-5 mt-3 mb-2">
+                                            <label for="lastName" class="fn">Last Name</label>
+                                        </div>
+                                        <input  type="text" name="lastName" id="lastName" class="form-control"
+                                            placeholder="Your Last Name" formControlName="lastname">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="row-md-3 mt-3 mb-2">
+                                        <label for="email" class="fn">Email Address</label>
+                                    </div>
+                                    <input  type="email" name="email" id="email" class="form-control"
+                                        placeholder="Your Email Address" formControlName="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="row-md-3 mt-3 mb-2">
+                                        <label for="password" class="fn">password</label>
+                                    </div>
+                                    <input type="password" name="password" id="password" class="form-control "
+                                        placeholder="Your password" formControlName="password">
+                                    
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="row-md-3 mt-3 mb-2">
+                                        <label for="phonenumber" class="fn">Phone Number</label>
+                                    </div>
+                                    <input  type="phonenumber" name="phonenumber" id="phonenumber" class="form-control "
+                                        placeholder="Your Phone Number" maxlength="10"formControlName="mobile">
+
+                                </div>
+                            </div>
+                            <div class="row-md-2 mt-3">
+                                <label class="switch">
+                                    <input type="checkbox" checked class="form-control">
+                                    <span class="slider round"></span>
+                                </label>
+                                <h6 class="accept">I accept the<span class="term">Terms of service</span>as well
+                                    as<span class="term">privacy policy</span></h6>
+                            </div>
+                            <div>
+
+                                <button type="submit" class="btn btn-lg cre-button"><i
+                                        class="fa-solid fa-circle-down"></i>Create
+                                    Account</button>
+                            </div>
+                            <div class="row-md-15">
+                                <div class="bor"></div>
+                            </div>
+                            <div class="row-md-1 mt-5 px-5">
+                              <h6 class="accept1 px-5"><a routerLink="/login">New user?<span class="log-in">click to Login</span> </a></h6>
+                            </div>
+                            <div class="row-md-1 px-5">
+                                <div class="help">
+                                    <h6>Help</h6>
+                                    <h6>Legal</h6>
+                                    <h6>Privacy</h6>
+                                    <h6>TOS</h6>
+                                </div>
+                            </div>
+                            <div class="row-md-1 px-5">
+                                <h6 class="cloud">@Cloudklabauter</h6>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

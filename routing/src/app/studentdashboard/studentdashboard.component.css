@@ -1,0 +1,108 @@
+mat-sidenav {
+    background-color: black;
+    width: 350px;
+    height: 100%;
+}
+
+mat-sidenav-content {
+    height: 100vh;
+    background-color: white;   
+}
+.main {
+    margin-left: 20px;
+}
+.color{
+    color: blue;
+}
+.fw{
+    color: blak;
+    font-size:35px;
+}
+.main{
+    margin-top: 30px;
+}
+.link{
+    margin-left: 20px;
+
+}
+.bar{
+   border-bottom:grey;
+    margin-top: 40px;
+}
+.content{
+    margin-left: 20px;
+    letter-spacing: 1px;
+
+}
+.content1{
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+.link{
+    margin-left: 20px;
+}
+.hs{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.mat-stepper-horizontal {
+    margin-top: 8px;
+  }
+  
+  .mat-form-field {
+    margin-top: 16px;
+  }
+  .forms{
+    background-color:white;
+    border: 1 px solid black;
+    height: 500px;
+    width:853px;
+  }
+  .bar{
+    background-color: rgb(235, 242, 246);
+  }
+  .fill{
+    padding-top: 100px;
+    margin-left: 20px;
+  }
+  .mb-3{
+    margin-top: 30px;
+    
+    width: 90%;
+    
+  }
+  .drop{
+    margin-left: 100px;
+  }
+  .mat-stepper-horizontal {
+    margin-top: 8px;
+    
+  }
+  .mat-form-field {
+    margin-top: 16px;
+  }
+.example-card{
+    max-width: 950px;
+    margin-bottom: 100px;
+}
+.example-full-width{
+    width: 90%;
+}
+#blak{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  height: 40px;
+  width: 100px;
+}
+#clr1{
+  background-color:rgb(81, 81, 242);
+  color: white;
+  border-radius: 20px;
+  height: 40px;
+  width: 100px;
+  margin-left: 10px;
+}
+.btn{
+  float: right;
+}

@@ -1,0 +1,31 @@
+.img-block img {
+    width: 700px;
+    height: 980px;
+  }
+  .img-block1 img {
+    height: 65px;
+    width: 180px;
+    position: relative;
+    bottom: 55px;
+    left: 75px;
+  }
+  .form-control {
+    box-shadow: 0 5px 10px 0 rgba(109, 140, 161, 0.18);
+  }
+  .term {
+    color: #2196F3;
+  }
+  .accept1 {
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+  }
+  .log-in {
+    color: #2196F3;
+    background-color: #fff;
+    border: none;
+  }
+  .container {
+    margin-left: 100px;
+    padding-top: 30px;
+  }
